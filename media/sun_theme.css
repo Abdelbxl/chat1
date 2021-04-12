@@ -1,0 +1,158 @@
+body
+{
+	width:400px;
+	border:grey 2px solid;
+	padding:2%;
+	background-color:yellow;
+}
+
+div.main_chat
+{
+	width:auto;
+	/* border: 2px solid blue;*/
+}
+
+div.main_chat div.main_message
+{
+	width:auto;
+	margin:2% 0% 2% 0%;
+	background-color:Azure;
+}
+
+div.main_chat div.main_message div.author_message
+{
+	margin:1%;
+	font-weight:bold;
+}
+
+div.main_chat div.main_message div.body_message
+{
+	margin:1%;
+	font-style:italic;
+}
+
+div.main_chat div.main_message div.command_message
+{
+	margin:1%;
+	
+}
+
+div.main_chat div.guest 
+{
+	color:green;
+}
+
+div.main_chat div.admin
+{
+	color:blue;
+}
+
+div.body_message textarea
+{
+	width:100%;
+}
+
+p.autre
+{
+	color:blue;
+	background-color:gray;
+}
+
+
+p.rouge, div.rouge
+{
+	color:red;
+	background-color:yellow;
+	float:left;
+	width:100px;
+}
+
+p.vert, div.vert
+{
+	color:#00FF00;
+	float:right;
+	width:100px;
+	background-color:yellow;
+}
+
+span.lignes
+{
+	text-decoration: underline overline;
+}
+
+h1
+{
+	color:blue;
+	font-size:150%;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+h2
+{
+	color:blue;
+	font-size:120%;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
+.limitedsize
+{
+	height:4cm;
+	width:4cm;
+	background-color:BurlyWood;
+	overflow-y: auto;
+}
+
+.limitedsize:hover
+{
+	height:2cm;
+	width:2cm;
+	background-color:yellow;
+	transition: background-color 6s, height 3s, width 3s;
+}
+
+/* ul.exo_cascade
+{
+	list-style-type:square;
+} */
+
+ul.exo_cascade li
+{
+	background-color:yellow;
+	color:blue;
+	font-size:120%;
+}
+
+	
+img + p
+{
+	color:red;
+	text-align:center;
+}
+
+
+span.cadre
+{
+	border: 2px red solid;
+	/* Attention : 3 éléments !! */
+}
+
+
+a {
+	color: red;
+}
+
+a:hover {
+	color: green;
+	transition: color 3s;
+}
+
+img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+

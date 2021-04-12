@@ -1,0 +1,18 @@
+base de données "2tppb_messenger"
+
+table t_message
+	colonnes :
+	- id : clé primaire
+	- sender : texte (max 16 char)
+	- sent_date : date/time
+	- body : texte (max 512 char)
+
+table t_user
+	colonnes :
+	- id
+	- login
+	- color 
+	- role : user ou owner 
+	- is_banned ? 
+
+
